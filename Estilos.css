@@ -10,3 +10,103 @@ a{
 body{
     font-family: "Agu Display", serif;;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.diseño{
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+.encabezado{
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #02806bee;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .nombre-e {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  header nav a:hover {
+    color: #f8dbc8;
+  }
+  
+  .inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8dbc8;
+    padding: 50px 20px;
+    height: 650px;
+  
+  }
+  .logo{
+    position: absolute;
+    z-index: 1;
+    order: 1;
+    left: 350px;
+    height: 700px;
+  }
+  
+  .inicio-p {
+    max-width: 500px;
+    left: 950px;
+    position: relative;
+    
+  
+  }
+  
+  .inicio h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .inicio p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .inicio a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #02806bee;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .inicio a:hover {
+    background-color: #02806bee;
+  }
+  
